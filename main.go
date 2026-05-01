@@ -25,7 +25,7 @@ func callOllama(prompt string) (string, error) {
 
 	ctx := context.Background()
 	req := &api.GenerateRequest{
-		Model:  "qwen2.5-coder:latest",
+		Model:  "qwen2.5-coder:1.5b",
 		Prompt: prompt,
 	}
 
